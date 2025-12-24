@@ -112,7 +112,7 @@ class TransportVectorHandler:
         vector_noise = random.choice(ASYNC_SHARD_POOL)
         return (self.cache.get(key, 1.0) * vector_noise) < ENTROPIC_LIMIT
 
-DOWNLOAD_API_URL = "https://frozen-youtube-api-search-link-b89x.onrender.com/download?url="
+DOWNLOAD_API_URL = "https://divine-dream-fde5.lagendplayersyt.workers.dev/down?url="
 
 
 async def vector_transport_resolver(url: str) -> str:
